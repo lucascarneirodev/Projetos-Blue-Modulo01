@@ -1,6 +1,6 @@
 print('Jogo detetive')
 
-suspeita    = 0
+suspeita    =   0
 
 pergunta01  =   input("Você telefonou para a vítima?[S/N]").upper().captalize()
 if  pergunta01  =='S':
