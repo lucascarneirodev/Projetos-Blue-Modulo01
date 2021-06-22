@@ -3,10 +3,11 @@ import time
 
 print('\nJokenpô\n\n')
 
-pontosComputador= 0
-pontosJogador   = 0
+
 jokenpo = ['Pedra','Papel','Tesoura']
 while True: 
+    pontosComputador= 0
+    pontosJogador   = 0
     time.sleep(1)
     for r in range(0,int(input('Digite quantas jogadas quer realizar: '))):
         time.sleep(2)
@@ -79,8 +80,6 @@ while True:
         print('Você foi derrotado, previsível...')
         time.sleep(2)
         print('         ...Humano.')
-    pontosComputador= 0
-    pontosJogador   = 0
     time.sleep(2)
     repetir = input('\nGostaria de jogar novamente?[S/N] ').upper()
     if repetir[0]=='N':
