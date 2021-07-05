@@ -3,7 +3,7 @@ from datetime import date
 
 
 #list of candidates
-candidates  = ['CandidatoA','CandidatoB','CandidatoC','Voto Nulo','Voto em Branco']
+candidates  = ['Carlos','Maria','José','Voto Nulo','Voto em Branco']
 votes       = {}
 
 
